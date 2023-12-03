@@ -19,7 +19,11 @@ def procesar(request):
         case 'X':
             res= n1*n2
         case '/':
-            res= n1/n2
+            if n2==0:
+                sw=True
+                return render(request, 'app/resultado.html', {'msg':'No se puede dividir entre Cero!','sw':sw})
+            else:
+                res= n1/n2
         case _:
             res= 0
     return render(request,'app/resultado.html',{'result':res}) 
