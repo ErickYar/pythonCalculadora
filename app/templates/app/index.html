@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>index</title>
 </head>
 <body>
-    <form action="">
+    <form action="procesar">
         <table border="1">
             <thead>
-                <th colspan="2">Mini Calculadora</th>
+                <th colspan="2">Calculadora</th>
             </thead>
             <tbody>
                 <tr>
@@ -19,9 +19,26 @@
                 <tr>
                     <td>Numero 2</td>
                     <td><input type="number" name="num2"></td>
+                </tr> 
+                <tr>
+                    <td>Operador</td>
+                    <td>
+                        <select name="operador">
+                            <option value=""></option>
+                            <option value="+">Sumar</option>
+                            <option value="-">Restar</option>
+                            <option value="X">Multiplicar</option>
+                            <option value="/">Dividir</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Procesar"></td> 
                 </tr>
             </tbody>
         </table>
     </form>
 </body>
 </html>
+
+   
