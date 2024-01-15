@@ -4,4 +4,4 @@ también se utilizo **Bootstrap5** y **Jquery**.
 
 # imagen de la pagina
 - image de la calculadora  
-[Calculadora](app/image/calculadora.jpg)
+![Calculadora](app/image/calculadora.jpg)
