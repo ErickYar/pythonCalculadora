@@ -8,4 +8,4 @@ también se utilizo **Bootstrap5** para los estilo y también **Jquery**.
 
 # video 
 - el funcionamiento de la **mini calculadora** en un video.
-- [video de la calculadora]()
+- [video de la calculadora](https://youtu.be/kwdnQZFs2Ug)
